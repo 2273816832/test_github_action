@@ -44,6 +44,9 @@
 #  define LZ4_HEAPMODE 0
 #endif
 
+/* -------------------------- */
+/* add : 1234 
+*/
 /*
  * ACCELERATION_DEFAULT :
  * Select "acceleration" for LZ4_compress_fast() when parameter value <= 0
