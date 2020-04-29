@@ -8,13 +8,9 @@ on:
       - 'LICENSE'
 jobs:
   build:
-    name: Build
+    name: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1    
       - name: build lib
         run: make lib
-        
-      - name: test
-        run: make test
-        
